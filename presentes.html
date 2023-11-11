@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="presentes.css" />
+    <link rel="shortcut icon" href="logo moka.png" type="image/x-icon" />
+    <title>Moka Clube</title>
+  </head>
+  <header>
+    <!--Cabeçalho-->
+    <nav class="cabecalho">
+      <div class="container">
+        <div class="row" id="cabecalho">
+          <p>Frete grátis para Sul e Sudeste em compras acima de R$250,00</p>
+        </div>
+      </div>
+    </nav>
+    <!--Nav bar-->
+    <nav class="navbar bg-white">
+      <div class="container">
+        <div class="row" class="col-3">
+          <img
+            src="logo moka.png"
+            alt="Moka Clube"
+            id="logoClube"
+            width="50"
+            height="30"
+          />
+        </div>
+        <div class="col-6">
+          <ul class="nav justify-content">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li>
+              <a class="nav-link" href="presentes.html">Presentes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#span-aprenda">Aprenda</a>
+              </li>
+          </ul>
+        </div>
+
+        <div class="col-md-3">
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" href="#" type="icon"
+                ><i class="bi bi-search-heart"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" type="icon"
+                ><i class="bi bi-person-heart"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" type="icon"
+                ><i class="bi bi-bag-heart"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <body>
+    <nav class="navbar bg-color">
+      <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1 text-white">
+          <img src="cafelogo-removebg-preview.png" alt="Cinema" width="80px" />
+          Conheça já nossas cestas e acompanhamentos e presenteie quem ama!
+        </span>
+      </div>
+    </nav>
+
+    <form class="container">
+      <div class="row mt-4">
+        <div class="col-md-4 offset-md-4">
+          <div class="card">
+            <div class="card-header">
+              <h2 class="text-primary">Escolha o presente:</h2>
+            </div>
+            <div class="card-body">
+              <img
+                src="acompanhamento1.jpg"
+                class="d-block mx-auto"
+                alt="Filme"
+                width="180px"
+                id="capa"
+              />
+              <select class="form-select my-3" id="selCesta">
+                <option value="cafe1" selected>Café Black</option>
+                <option value="cafe2">Café Black & White</option>
+                <option value="cesta1">Cesta Ferro</option>
+                <option value="cesta2">Cesta Bronze</option>
+                <option value="cesta3">Cesta Prata</option>
+                <option value="cesta4">Cesta Ouro</option>
+              </select>
+              <div class="row">
+                <div class="col-md-8">
+                  <h4 class="text-end mt-3">Quantidade:</h4>
+                </div>
+                <div class="col-md-4">
+                  <select class="form-select my-3" id="selQuant">
+                    <option selected>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="card-footer">
+              <h3>
+                Total R$:
+                <span id="spanTotal" class="float-end me-2"></span>
+              </h3>
+                <input type="submit" 
+                       class="btn btn-danger " 
+                       value="Pagar">
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+
+    <div class="row mt-3 mb-3 mx-5" id="cestas">
+        <div class="col-12 col-md-4">
+            <div class="card" style="width: 18rem;" mx="auto">
+                <img src="acompanhamento1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <p class="card-text">Café Black</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-4">
+            <div class="card" style="width: 18rem;">
+                <img src="acompanhamento2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <p class="card-text">Café Black & White</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-4">
+            <div class="card" style="width: 18rem;">
+                <img src="cesta1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                <p class="card-text">Cesta Ferro</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-3 mb-3 mx-5">
+        <div class="col-12 col-md-4">
+            <div class="card" style="width: 18rem;">
+                <img src="cesta2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                <p class="card-text">Cesta Bronze</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-4">
+            <div class="card" style="width: 18rem;">
+                <img src="cesta3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                <p class="card-text">Cesta Prata</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-4">
+            <div class="card" style="width: 18rem;">
+                <img src="cesta4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                <p class="card-text">Cesta Ouro</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="section3">
+      <span id="span-assine"></span>  
+      <section class="form">
+        <h3>Ainda não é membro do Moka Clube?</h3><br>
+        <h5>Cadastre-se e receba em sua 1ª compra um cupom de FRETE GRÁTIS para todo Brasil!</h5>
+        <br>
+        <div class="container" id="formContainer">
+          <div class="row">
+            <div class="col-8">
+              <form action="/action_page.php">
+                <div class="mb-3 mt-3">
+                  <label for="email" class="form-label">Digite seu email:</label>
+                  <input type="email" class="form-control" id="email" placeholder="Email" name="email">
+                </div>
+                <div class="mb-3">
+                  <label for="pwd" class="form-label">Crie uma senha:</label>
+                  <input type="password" class="form-control" id="pwd" placeholder="Senha" name="pswd">
+                </div>
+                <div class="form-check mb-3">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" name="remember"> Salvar meus dados
+                  </label>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
+            </div>
+            <div class="col-4" id="fotoForm">
+              <img src="café1.jpg" class="ico" alt="cafeprom" id="cafe" width="460" height="500">
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+
+    <script src="index.js"></script>
+  </body>
+  <footer>
+    <!--Aqui fiz o rodapé com informações de contato, loja física e aprenda-->
+    <div class="container-fluid" id=footer1>
+      <div class="row">
+       
+        <div class="col-3">
+          <p><b>Contato</b></p>
+          <p> <i class="bi bi-telephone-fill"></i> (53) 9 9942-1348</p>
+          <p><i class="bi bi-telephone-fill"></i> (53) 9 9942-1348</p>
+          <p><i class="bi bi-envelope-heart"></i> mariaantoniascf@gmail.com</p>
+          <p><i class="bi bi-geo-alt-fill"></i> R. Gonçalves Chaves, 123</p>
+        </div>
+        <div class="col-5">
+          <span id="span-aprenda"></span>
+          <p><b>Aprenda</b></p>
+          <a class="nav-link" href="https://www.mokaclube.com.br/blog/receitas-de-cafe-gelado-cremoso/"><p id="receitas">10 receitas de café gelado cremoso para você testar agora</p></a>
+          <a class="nav-link" href="https://www.mokaclube.com.br/blog/cafe-para-prensa-francesa/"><p id="receitas">Café para prensa francesa: o melhor tipo e como preparar!</p></a>
+        </div>
+        <div class="col-4">
+          <p><b>Visite nossa loja</b></p>
+          <p> <i class="bi bi-house-heart-fill"></i> R. Gonçalves Chaves, 123</p>
+          <p><i class="bi bi-house-heart-fill"></i> SENAC/RS - PELOTAS</p>
+        </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    <!--Aqui a faixa final do rodapé contendo icones das redes-->
+    <div class="container-fluid" id="footer2">
+      <div class="row" id="rodapeIcons">
+        <div class="col-9">
+          <h6><b>© 2023 Moka Clube. CNPJ: 12.345.6789/0001-23</b></h6>
+        </div>
+        <div class="col-1">
+          <a class="nav-link" href="#" type="icon"><i class="bi bi-instagram"></i></a>
+        </div>
+        <div class="col-1">
+          <a class="nav-link" href="#" type="icon"><i class="bi bi-facebook"></i></a>
+        </div>
+        <div class="col-1">
+          <a class="nav-link" href="#" type="icon"><i class="bi bi-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+    </spam>
+  </footer>
+</html>

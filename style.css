@@ -1,0 +1,79 @@
+
+
+#fundo{
+    height: 750px;
+    width: 1967px;
+    left: 0px;
+    right: 0px;
+    top: 190px;
+    border-radius: 0px;
+}
+
+.cabecalho{
+    background-color: #eedbb7;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+a, h3, h5, p {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.section3 #comprarCafe{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    background-color:  #745d2f;
+}
+
+#formContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#fotoForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: start;
+    padding-left: 200px;
+    padding-bottom: 10px;
+}
+
+#footer1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8b7b3d;
+    background-color: #eedbb7;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#receitas {
+    background-color: #745d2f;
+    color: #ffffff;
+}
+
+#footer2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #8b7b3d;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+
+
